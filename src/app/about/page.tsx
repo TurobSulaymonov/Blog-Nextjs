@@ -1,4 +1,11 @@
 import Hero from "@/components/Hero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'About Me',
+  description: 'Turob 커리에 소개'
+}
+
 const TITLE_Class = "text-2xl font-bold text-gray-800 my-2"
 export default function AboutPage() {
   return (
